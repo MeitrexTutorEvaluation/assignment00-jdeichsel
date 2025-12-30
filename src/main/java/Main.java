@@ -11,31 +11,30 @@ public class Main {
      * TODO: Write a method to add two integers.
      */
     public static int add(int a, int b) {
-        // your code here
-        return 0;
+        return a+b;
     }
 
     /**
      * TODO: Write a method to subtract two integers.
      */
     public static int subtract(int a, int b) {
-        // your code here
-        return 0;
+        return a-b;
     }
 
     /**
      * TODO: Write a method to multiply two integers.
      */
     public static int multiply(int a, int b) {
-        // your code here
-        return 0;
+        return a*b;
     }
 
     /**
      * TODO: Write a method to calculate the factorial of a number.
      */
     public static int factorial(int n) {
-        // your code here
-        return 0;
+        for(int i = n-1; i > 0; i--){
+            n *= i;
+        }
+        return n;
     }
 }
